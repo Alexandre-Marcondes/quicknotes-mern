@@ -1,13 +1,13 @@
 import mongoose, { Schema } from 'mongoose';
 
 const noteSchema = new mongoose.Schema({
-    titlle: {
+    title: {
         type: String, 
         required: true,
     },
     body: {
         type: String,
-        required: true 
+        required: true,
     },
     createdAt: {
         type: Date,
